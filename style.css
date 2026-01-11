@@ -1,0 +1,165 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f6f8;
+}
+
+header {
+    background: #0d6efd;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.container {
+    background: white;
+    max-width: 500px;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+input, button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+button {
+    background: #0d6efd;
+    color: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #084298;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style: none;
+    background: #e9ecef;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    color: #666;
+}
+
+
+
+
+.acoes {
+    margin-top: 8px;
+}
+
+.acoes button {
+    width: auto;
+    padding: 6px 10px;
+    margin-right: 5px;
+    font-size: 14px;
+}
+
+.btn-editar {
+    background: #ffc107;
+    color: black;
+}
+
+.btn-excluir {
+    background: #dc3545;
+    color: white;
+}
+
+
+
+/* ============================= */
+/* 📱 RESPONSIVIDADE MOBILE */
+/* ============================= */
+
+@media (max-width: 600px) {
+
+    header h1 {
+        font-size: 22px;
+    }
+
+    header p {
+        font-size: 14px;
+    }
+
+    .container {
+        width: 90%;
+        margin: 20px auto;
+        padding: 15px;
+    }
+
+    input, button {
+        font-size: 16px;
+        padding: 14px;
+    }
+
+    li {
+        font-size: 15px;
+        padding: 12px;
+    }
+
+    .acoes {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10px;
+    }
+
+    .acoes button {
+        flex: 1;
+        margin: 0 3px;
+        padding: 12px;
+        font-size: 15px;
+    }
+}
+
+
+select {
+    width: 100%;
+    padding: 14px;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+
+
+
+#mensagem {
+    display: none;
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+.mensagem-erro {
+    background: #f8d7da;
+    color: #842029;
+    border: 1px solid #f5c2c7;
+}
+
+.mensagem-sucesso {
+    background: #d1e7dd;
+    color: #0f5132;
+    border: 1px solid #badbcc;
+}
+
+

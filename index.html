@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agendamento de Vistoria</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Vistoria Veicular</h1>
+    <p>Agende sua vistoria de forma rápida</p>
+</header>
+
+<main class="container">
+    
+    <div id="mensagem"></div>
+
+    <h2>Agendar Vistoria</h2>
+
+    <input type="text" id="nome" placeholder="Nome do proprietário">
+    <input type="text" id="placa" placeholder="Placa do veículo">
+    <input type="date" id="data" required>
+    <select id="hora">
+    <option value="">Selecione um horário</option>
+    </select>
+
+
+
+
+    <button onclick="agendar()">Agendar</button>
+
+    <h3>Agendamentos</h3>
+    <ul id="lista"></ul>
+</main>
+
+<footer>
+    © 2026 - Sistema de Vistoria
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
